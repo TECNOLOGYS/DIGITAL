@@ -48,6 +48,21 @@
                 </div>
             </div>
         </header>
+        <script type="text/javascript">
+    var txtNombre, txtApellidos, txtEmail, ddlPais, ddlDepartamento, txtDireccion, txtTelefono, txtCelular, chNewsLetter;
+    var IdiomaSeleccione = '--  Seleccione  --';
+    $(function () {
+        var Ant_Action = $('#Asp').attr('action');
+        $('#Asp').attr('action', 'http://www.travelgroup.com.pe/' + Ant_Action);
+        txtNombre = $('#txtNombre')[0];
+        txtApellidos = $('#txtApellidos')[0];
+        txtEmail = $('#txtEmail')[0];
+        ddlPais = $('#c_ddlPais')[0];
+        ddlDepartamento = $('#c_ddlDepartamento')[0];
+        txtDireccion = $('#txtDireccion')[0];
+        txtTelefono = $('#txtTelefono')[0];
+        txtCelular = $('#txtCelular')[0];
+        chNewsLetter = $('#chNewsLetter')[0];
         <!-- About-->
         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-lg-5">
